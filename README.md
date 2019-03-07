@@ -2,7 +2,7 @@
 
 
 
-### The statement
+### The statement.
 
 An image can be seen as bitmap or a matrix of pixels, a pretty common problem nowadays is that images could contain some noise (invalid pixels),
 so most of the modern pictures applications denoised the image or make it smoother.
@@ -11,7 +11,7 @@ Your objective is to create an application that applies the denoised.
 
 
 
-### Restrictions
+### Restrictions.
 
 - No OpenCV usage
 
@@ -19,13 +19,13 @@ Your objective is to create an application that applies the denoised.
 
 
 
-### What you could use
+### What you could use?
 
 - A library that is only part of the standard library of your preferred programming language to load the picture into memory.
 
 
 
-### What would be evaluated
+### What would be evaluated?
 
 - Your creativity using data structures, optimization steps to play with the image.
 

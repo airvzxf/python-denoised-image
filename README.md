@@ -72,6 +72,10 @@ It's quite easy as run `./src/run.sh` then it builds and runs docker also it exe
 In the `./src/run.sh` script there's some variable `IMAGES_DIR` which needs to change the value to your valid local
 path.
 
+The repository is able to download from:
+
+`docker pull airvzxf/python_denoised_image_with_median_filter_docker_image`
+
 
 
 ## Scripts:

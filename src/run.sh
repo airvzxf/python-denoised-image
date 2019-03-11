@@ -20,9 +20,9 @@ docker run -d --name ${CONTAINER} -it ${IMAGE} /bin/sh -c 'python3'
 
 # Execute the median filter script into the container
 docker exec -it ${CONTAINER} /bin/sh -c 'ls -lha && echo -e "\n\n\n"'
-#docker exec -it ${CONTAINER} /bin/sh -c 'cd denoised_image && ../venv/bin/python median_filter_pil.py'
-#docker exec -it ${CONTAINER} /bin/sh -c 'cd denoised_image && ../venv/bin/python median_filter_pil_mine.py'
-docker exec -it ${CONTAINER} /bin/sh -c 'cd denoised_image && ../venv/bin/python median_filter_pil_multi_processing.py'
+#docker exec -it ${CONTAINER} /bin/sh -c 'cd denoised_image && python median_filter_pil.py'
+#docker exec -it ${CONTAINER} /bin/sh -c 'cd denoised_image && python median_filter_pil_mine.py'
+docker exec -it ${CONTAINER} /bin/sh -c 'cd denoised_image && python median_filter_pil_multi_processing.py'
 
 
 

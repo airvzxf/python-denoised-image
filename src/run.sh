@@ -2,8 +2,8 @@
 
 set -xve
 
-IMAGE=python_denoised_image_with_median_filter__image
-CONTAINER=python_denoised_image_with_median_filter__container
+IMAGE=python_denoised_image_with_median_filter_docker_image
+CONTAINER=python_denoised_image_with_median_filter_docker_container
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 IMAGES_DIR=~/Downloads/denoised_images

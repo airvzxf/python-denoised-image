@@ -64,6 +64,16 @@ any libraries.
 
 
 
+## Docker usage:
+
+It's quite easy as run `./src/run.sh` then it builds and runs docker also it executes the
+`median_filter_pil_multi_processing.py` script and copies the denoised images from the container to the local machine.
+
+In the `./src/run.sh` script there's some variable `IMAGES_DIR` which needs to change the value to your valid local
+path.
+
+
+
 ## Scripts:
 
 - [median_filter_without_libraries.py](./src/denoised_image/median_filter_without_libraries.py)
